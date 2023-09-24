@@ -267,8 +267,14 @@ Error generating stack: `+o.message+`
     align-items: center;
 
     img {
-      width: 320px;
+      width: 100%;
       height: 328px;
+    }
+  }
+
+  @media (max-width: 360px) {
+    img {
+      width: 320px;
     }
   }
 `,Jf=({productDetails:e,productSummaryData:t,discountBanner:n,paymentContainer:r,satisfactionGuarantee:i})=>g.jsxs(Cg,{children:[g.jsxs(Mg,{children:[g.jsxs(Og,{children:[g.jsx(Dg,{children:g.jsx(V,{src:e.productImageSrc})}),g.jsxs(Ag,{children:[g.jsxs(Fg,{children:[g.jsx(Wg,{children:e.productHeader.productName}),g.jsx(Qg,{children:g.jsx(it,{message:e.productHeader.productPrice})})]}),g.jsx(Vg,{children:new Array(5).fill().map((o,l)=>g.jsx(V,{src:e.productStars.starImageSrc,alt:"star_filled"},l))}),g.jsxs(Ug,{children:[g.jsx(V,{src:e.productStock.stockImageSrc,alt:"stock_point"}),g.jsx(it,{message:e.productStock.stockText})]}),g.jsx(Bg,{children:e.productDescription})]})]}),g.jsx(Hg,{children:e.productDescription})]}),g.jsx($g,{children:t.map(({id:o,title:l})=>g.jsxs(Lg,{children:[g.jsx(V,{src:xg,alt:"fluent-checkmark"}),g.jsx(it,{message:l})]},o))}),g.jsxs(Rg,{children:[g.jsx(V,{src:n.percentIconSrc,alt:"percent_icon"}),g.jsx(it,{message:n.discountMessage})]}),g.jsxs(Eg,{children:[g.jsxs(Ig,{children:[r.customButtonText," ",g.jsx(V,{src:wg,alt:"line"})]}),g.jsxs(Pg,{children:[g.jsxs(jg,{children:[g.jsx(zg,{children:r.paymentAndSecurity.freeShippingText}),g.jsx("span",{}),g.jsxs(Ng,{children:[g.jsx(V,{src:r.paymentAndSecurity.secureText.lockImageSrc,alt:"lock"})," ",r.paymentAndSecurity.secureText.text]})]}),g.jsx("span",{}),g.jsx(Tg,{children:r.paymentAndSecurity.paymentTypes.map(({id:o,imageSrc:l,title:u})=>g.jsx(V,{src:l,alt:u},o))})]}),g.jsx(it,{message:r.noThanksText})]}),g.jsxs(_g,{children:[g.jsx(V,{src:i.satisfactionGuaranteeImageSrc,alt:"satisfaction guarantee"}),g.jsx(it,{message:i.satisfactionGuaranteeText})]})]}),Cg=z.div`
