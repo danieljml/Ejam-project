@@ -110,7 +110,7 @@ Error generating stack: `+o.message+`
   font-style: normal;
   font-weight: 500;
   line-height: 100%;
-  text-transform: capitalize;
+  text-transform: uppercase;
   padding: 15px 0 13px 0;
 `,lg=({logo:e,brands:t,styles:n})=>g.jsx(ug,{children:g.jsxs(sg,{styles:n,children:[e,g.jsx(ag,{styles:n,children:t.map(({id:r,image:i})=>g.jsx("div",{children:i},r))})]})}),ug=z.div`
   display: flex;
