@@ -165,7 +165,7 @@ Error generating stack: `+o.message+`
         background-color: #fafafa;
       }
     `}};
-`,fg=({message:e,styles:t})=>g.jsx(it,{message:e,styles:t}),dg="https://danieljml.github.io/Project-ejam/assets/tick-circle-b222adc8.svg",pg=({state:e,number:t})=>{const n={completed:{backgroundColor:"#85BF55"},doing:{backgroundColor:"#2C7EF8"},remaining:{outline:"1px solid #2C7EF8",color:"#2C7EF8"}};return g.jsx(gg,{styles:n[e],children:e==="completed"?g.jsx(V,{src:dg}):t})},hg=({info:e})=>g.jsx(mg,{children:e.map(({id:t,state:n,number:r,title:i})=>g.jsxs(yg,{children:[g.jsx(pg,{state:n,number:r}),g.jsxs(vg,{$isdoing:n,children:[g.jsxs("span",{className:"step",children:["Step ",r," : "]}),i]})]},t))}),mg=z.div`
+`,fg=({message:e,styles:t})=>g.jsx(it,{message:e,styles:t}),dg="https://danieljml.github.io/Project-ejam/assets/tick-circle-b222adc8.svg",pg=({state:e,number:t})=>{const n={completed:{backgroundColor:"#85BF55"},doing:{backgroundColor:"#2C7EF8"},remaining:{outline:"2px solid #2C7EF8",color:"#2C7EF8"}};return g.jsx(gg,{styles:n[e],children:e==="completed"?g.jsx(V,{src:dg}):t})},hg=({info:e})=>g.jsx(mg,{children:e.map(({id:t,state:n,number:r,title:i})=>g.jsxs(yg,{children:[g.jsx(pg,{state:n,number:r}),g.jsxs(vg,{$isdoing:n,children:[g.jsxs("span",{className:"step",children:["Step ",r," : "]}),i]})]},t))}),mg=z.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
