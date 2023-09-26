@@ -117,6 +117,6 @@ const CustomItem = styled.li`
   font-style: normal;
   font-weight: 500;
   line-height: 100%;
-  text-transform: capitalize;
+  text-transform: uppercase;
   padding: 15px 0 13px 0;
 `;

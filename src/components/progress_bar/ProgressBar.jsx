@@ -7,7 +7,7 @@ const ProgressStep = ({ state, number }) => {
   const stepStyles = {
     completed: { backgroundColor: '#85BF55' },
     doing: { backgroundColor: '#2C7EF8' },
-    remaining: { outline: '1px solid #2C7EF8', color: '#2C7EF8' },
+    remaining: { outline: '2px solid #2C7EF8', color: '#2C7EF8' },
   };
 
   return <StepContainer styles={stepStyles[state]}>{state === 'completed' ? <Image src={doneIcon} /> : number}</StepContainer>;

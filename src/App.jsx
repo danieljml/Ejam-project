@@ -126,7 +126,7 @@ const MainLeftContent = {
   productSummaryData: [
     {
       id: 1,
-      title: 'Negative Ion Technology <strong>may help with allergens</strong>',
+      title: 'Negative Ion Technology may <strong>help with allergens</strong>',
     },
     {
       id: 2,

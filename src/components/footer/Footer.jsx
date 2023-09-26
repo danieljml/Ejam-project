@@ -8,7 +8,7 @@ const Footer = ({ email, secureText }) => {
     <CustomFooter>
       <ContainerFooter>
         <CopyrightText>
-          Copyright (c) 2023 <span>|</span> {email}
+          Copyright (c) 2023 <span></span> {email}
         </CopyrightText>
         <SecureText>
           <Image src={lock} alt="lock" /> {secureText}
@@ -64,13 +64,19 @@ const CopyrightText = styled.div`
   line-height: 140%;
   column-gap: 16px;
 
-  @media (max-width: 360px) {
-    padding: 8px 0;
-  }
-  
   span {
-    @media (max-width: 360px) {
-      margin: 0;
+    width: 1px;
+    height: 24px;
+    background: #FFF;
+  }
+
+  @media (max-width: 1245px) {
+    padding: 8px 0;
+    column-gap: 12px;
+
+    span {
+      width: 1px;
+      height: 14px;
     }
   }
 `;
